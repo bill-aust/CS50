@@ -1,0 +1,50 @@
+<head>
+    <style>
+        .center {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+        .link   {
+                   color: blue;
+                }
+        #rcorners1 {
+                        border-radius: 25px;
+                        padding: 20px; 
+                        width: 300px;
+                    }
+        
+        table {
+                padding: 2px;
+              }
+        th  {
+                
+                padding-left: 40px;
+            }
+        #im {
+            padding-left: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <title>google search</title>
+    <Advanced Search>
+    <div class="center">
+        <img id="im" src="google.png">
+        <form action="https://www.google.com.au/advanced_search">
+            <input id="rcorners1" type="text" name="q">
+            <div id="buttons">
+                <table>
+                    <thead>
+                      <th><input type="submit" value="search"></th>  
+                        <th><input type="button" value="image"></th>
+                        <th><input class="link" type="button" value="advanced" action="https://www.google.com.au/advanced_search"></th>
+                    </thead>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
